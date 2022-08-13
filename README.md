@@ -28,7 +28,6 @@ npm run dev
 ```sh
 npm run build
 ```
-![calc-vue](https://user-images.githubusercontent.com/96110553/184516949-192d1d04-3b39-4c60-9308-2e8dd193e484.jpg)
 
 
 
