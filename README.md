@@ -1,8 +1,7 @@
-# Calc-vue
-
-## Download Package 
+# Calc-Vue
 
 ```sh
+## Download Package
 npm install bootstrap
 npm install vue
 
