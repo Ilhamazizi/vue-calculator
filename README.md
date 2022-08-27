@@ -1,6 +1,5 @@
 # Calc-Vue
 
-test
 
 ```sh
 ## Download Package
