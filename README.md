@@ -1,6 +1,4 @@
 # Calc-Vue
-
-
 ```sh
 ## Download Package
 npm install bootstrap
@@ -12,7 +10,6 @@ npm run dev
 ## Compile and Minify for Production
 npm run build
 ```
-
 
 ## Screenshot
 ![calc-vue](https://user-images.githubusercontent.com/96110553/184517022-aff23099-c94d-41b7-9140-1c425372b717.jpg)
