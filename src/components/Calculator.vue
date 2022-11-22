@@ -1,19 +1,19 @@
 <template>
   <!-- Happy Coding -->
-  <div class="p-3" style="max-width: 400px; margin: 50px auto; background: #234">
+  <div class= "p-3" style= "max-width: 400px; margin: 50px auto; background: #234">
     
     <!-- Calculator Result -->
-    <div class="w-full rounded m-1 p-3 text-right lead font-weight-bold text-white bg-vue-dark">
+    <div class= "w-full rounded m-1 p-3 text-right lead font-weight-bold text-white bg-vue-dark">
       {{ calculatorValue || 0 }}
     </div>
 
     <!-- Calculator buttons -->
-    <div class="row no-gutters">
-      <div class="col-3" v-for="n in calculatorElements" :key="n">
-        <div class="lead text-white text-center m-1 py-3 bg-vue-dark rounded hover-class"
-          :class="{'bg-vue-green': ['C','*','/','-','+','%','='].includes(n)}"
+    <div class= "row no-gutters">
+      <div class= "col-3" v-for="n in calculatorElements" :key="n">
+        <div class= "lead text-white text-center m-1 py-3 bg-vue-dark rounded hover-class"
+          :class= "{'bg-vue-green': ['C','*','/','-','+','%','='].includes(n)}"
           @click="action(n)">
-          {{n}}
+          {{ n }}
         </div>
       </div>
     </div>
@@ -21,6 +21,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Calculator',
   props: {
